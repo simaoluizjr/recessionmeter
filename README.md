@@ -2,7 +2,7 @@
 
 ## RecessionMeter Classificator
 
-Capstone Project Udacity: Machine Learning Engineer 2017
+Capstone Project Udacity: Machine Learning Engineer 2017<br>
 Completed by Simao Luiz Stanislawski Junior
 
 ### Content
