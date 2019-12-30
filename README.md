@@ -43,3 +43,9 @@ Models.py and PrepareData.py are documented in html files with their respective 
 ### Known Quandl Download Limit Problem
 Although improbable you can solve it signing up free on www.quandl.com and getting an API KEY very quickly.
 
+### On Use
+Please note deep learning algorithms have some 'margin of error' on classification. I recommend strongly to repeat the training and inference process 10 times and take the average for current period to have an accurate estimate.
+
+### Responsability
+Of course, this software use means NO RECOMENDATION of actions and success of its prediction IS NOT GUARANTEED. Use at your own discretion.
+
