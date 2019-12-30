@@ -1,0 +1,6 @@
+requests
+tabulate
+scikit-learn
+h2o
+quandl
+pandas
