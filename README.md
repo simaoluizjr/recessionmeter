@@ -1,7 +1,7 @@
 # recessionmeter
-﻿***************************************************************************************************
-Classificador RecessionMeter
-***************************************************************************************************
+
+## Classificador RecessionMeter
+
 Projeto Capstone Udacity: Engenheiro de Machine Learning 2017
 Por Simao Luiz Stanislawski Junior
 
