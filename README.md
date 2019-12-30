@@ -1,28 +1,30 @@
 # recessionmeter
 
-## Classificador RecessionMeter
+## RecessionMeter Classificator
 
-Projeto Capstone Udacity: Engenheiro de Machine Learning 2017
-Por Simao Luiz Stanislawski Junior
+Capstone Project Udacity: Machine Learning Engineer 2017
+Completed by Simao Luiz Stanislawski Junior
 
----===Conteudo:===---
-Examples.py: arquivo com os usos recomendados para este programa
-Models.py: arquivo com os modelos de ML necessarios
-PrepareData.py: arquivo com as rotinas de download e preprocessamento do dataset
-crisis.csv: planilha contendo as datas e a classificaçao dos eventos (PotentialCrisis ou Normal)
+### Content
+Examples.py: file with recommended uses for this software
+Models.py: file with necessary Machine Learning Models
+PrepareData.py: file with download routines and dataset preprocessing
+crisis.csv: spreadsheet with historical dates and historical classification of events (PotentialCrisis* ou Normal)
 
----===Instruções de Uso:===---
-Use conforme os exemplos mostrados em Examples.py
+*PotentialCrisis is correspondent to 'recession'
 
----===Documentaçao:===---
-Os módulos Models.py e PrepareData.py estão documentados em arquivos html com seus respectivos nomes.
+### Use Instructions
+Just follow the examples shown in Examples.py and use your creativity
 
----===Dependências:===---
+### Documentation
+Models.py and PrepareData.py are documented in html files with their respective names.
+
+### Dependencies
 - Java
-- Biblioteca de Machine Learning H2O (Para uso do classificador 'DeepLearning')
+- Machine Learning H2O Library (For 'DeepLearning' Classificator Use)
 
-	Documentaçao: http://docs.h2o.ai/h2o/latest-stable/index.html
-	Instalando o modulo H2O python: 
+	Documentation: http://docs.h2o.ai/h2o/latest-stable/index.html
+	Installing H2O python module: 
 
 	pip install requests
 	pip install tabulate
@@ -34,13 +36,14 @@ Os módulos Models.py e PrepareData.py estão documentados em arquivos html com 
 	# Next, use pip to install this version of the H2O Python module.
 	pip install https://h2o-release.s3.amazonaws.com/h2o/rel-tverberg/4/Python/h2o-3.10.3.4-py2.py3-none-any.whl
 
-- Biblioteca da Base de Dados Quandl (Fonte dos dados)
+- Quandl Database Library (Datasource)
 
-	Documentaçao: https://www.quandl.com/tools/python
-	Instalando o api quandl python: pip install quandl
+	Documentation: https://www.quandl.com/tools/python
+	Installing api quandl python: pip install quandl
 
-- Outros: sklearn, dateutil, pandas, numpy
+- Others: sklearn, dateutil, pandas, numpy
+- Please note you always can just use: pip install -r requirements.txt (must have Java installed)
 
+### Known Quandl Download Limit Problem
+Although improbable you can solve it signing up free on www.quandl.com and getting an API KEY very quickly.
 
----===Problemas com limite de download Quandl: ===---
-E um problema improvavel mas se ocorrer basta cadastrar-se gratuitamente no site www.quandl.com e conseguir uma api, e um processo bem rapido.
