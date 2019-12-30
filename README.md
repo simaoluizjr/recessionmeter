@@ -29,13 +29,9 @@ Models.py and PrepareData.py are documented in html files with their respective 
 	pip install requests
 	pip install tabulate
 	pip install scikit-learn
+	pip install h2o
 
-	# The following command removes the H2O module for Python.
-	pip uninstall h2o
-
-	# Next, use pip to install this version of the H2O Python module.
-	pip install https://h2o-release.s3.amazonaws.com/h2o/rel-tverberg/4/Python/h2o-3.10.3.4-py2.py3-none-any.whl
-
+	
 - Quandl Database Library (Datasource)
 
 	Documentation: https://www.quandl.com/tools/python
